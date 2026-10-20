@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@utility container {
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}
+
+@utility btn {
+  border: 1px solid white;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding-top: 6px;
+}
+
+@utility ch {
+  font-size: 36px;
+  color: #285a43;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+@utility shopbtn {
+  border: 1px solid #285a43;
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  padding-top: 6px;
+  color: #fff;
+  background: #285a43;
+}
